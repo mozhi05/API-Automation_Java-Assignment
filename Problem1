@@ -1,0 +1,16 @@
+package assignment;
+
+public class Problem_Add_two_Floatnumbers
+{
+
+    public static void main (String args[])
+
+    {
+        Problem_Add_two_Floatnumbers AFN = new Problem_Add_two_Floatnumbers();
+        AFN.add_two_floatnumbers(8.6f,9.7f);
+    }
+
+    public void add_two_floatnumbers (float a,float b)
+    {
+        System.out.println(a+b);
+    }
