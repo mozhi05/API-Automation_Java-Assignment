@@ -1,0 +1,31 @@
+package assignment;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class Program14
+{
+    Date currentdate=new Date();
+
+    public static void main(String[] args)
+    {
+        Program14 obj=new Program14();
+        System.out.println("Current Date: "+obj.currentDate(obj.currentdate));
+        System.out.println("Formatted Date: "+obj.dateFormat(obj.currentdate));
+
+    }
+
+    public Date currentDate(Date date)
+    {
+        System.out.println("Current Date: "+date);
+        return date;
+    }
+
+    public static String dateFormat(Date date)
+    {
+        SimpleDateFormat formata=new SimpleDateFormat("dd-MMM-yyyy");
+
+        String dateformat=formata.format(date);
+
+        return dateformat;
+    }
+}
