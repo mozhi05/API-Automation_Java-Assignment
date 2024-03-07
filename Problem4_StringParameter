@@ -1,0 +1,43 @@
+package assignment;
+
+public class Problem4_StringParameter
+{
+    public static void main(String[] args)
+    {
+        Problem4_StringParameter ob=new Problem4_StringParameter();
+        System.out.println("Result: "+ob.arithmeticOperations(12,9,"mul"));
+
+    }
+    static int arithmeticOperations(int num1,int num2,String op)
+    {
+        int result=0;
+        switch (op)
+        {
+            case "add":
+                result=num1+num2;
+                break;
+            case "subs":
+                result=num1-num2;
+                break;
+            case "mul":
+                result=num1*num2;
+                break;
+            case "div":
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                }
+                else
+                {
+                    System.out.println("Error: Division by zero!");
+                }
+                break;
+            default:
+                System.out.println("Invalid Output");
+                break;
+        }
+        return result;
+    }
+
+}
+
