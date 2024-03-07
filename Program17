@@ -1,0 +1,24 @@
+package assignment;
+
+public class Program17
+{
+    public static void main(String[] args)
+    {
+        evenOrOddNumber(97);
+    }
+
+    static int evenOrOddNumber(int num)
+    {
+        if(num%2==0)
+        {
+            System.out.println(num+" is an Even Number.");
+        }
+        else
+        {
+            System.out.println(num+" is an Odd Number");
+        }
+
+        return num;
+    }
+
+}
