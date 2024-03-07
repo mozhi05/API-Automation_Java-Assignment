@@ -1,0 +1,24 @@
+package assignment;
+import java.util.HashMap;
+public class Program11
+{
+
+    public static void main(String[] args)
+    {
+        Program11 obj=new Program11();
+        obj.empDetails();
+    }
+
+    public void empDetails()
+    {
+        HashMap<Integer,String> empmap=new HashMap<>();
+        empmap.put(123,"Jadeja");
+        empmap.put(124,"kani");
+        empmap.put(125,"mozhi");
+        empmap.put(126,"Suji");
+        empmap.put(127,"Tham");
+        empmap.put(128,"kavi");
+
+        System.out.println("Employee Details: "+empmap);
+    }
+}
