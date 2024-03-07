@@ -1,0 +1,40 @@
+package assignment;
+
+public class Program10_1
+{
+    // private variables
+    private int age;
+    private String name;
+    public static void main(String[] args)
+    {
+        Program10_1 obj = new Program10_1();
+        obj.getAge();
+        obj.getName();
+        obj.setAge(12);
+        obj.setName("kani");
+    }
+    // initialize age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // initialize name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // access age
+    public int getAge() {
+        return this.age;
+    }
+
+    // access name
+    public String getName() {
+        return this.name;
+    }
+
+
+
+}
+
+
