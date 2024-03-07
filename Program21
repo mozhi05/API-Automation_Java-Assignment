@@ -1,0 +1,27 @@
+package assignment;
+
+public class Program21 {
+    static String name = "Liverpool";
+    static String name1 = "City";
+
+    public static void main(String[] args) {
+        System.out.println("Corrected Name: " + LPreplace(name));
+        System.out.println("Corrected Name: " + cityreplace(name1));
+        Program21 obj = new Program21();
+
+    }
+
+    static String LPreplace(String s1)
+    {
+        String str;
+        str = name.replace("Liverpool", "Liverpool Football Club");
+        return str;
+    }
+    static String cityreplace(String s1)
+    {
+        String str;
+        str = name1.replace("City", "Manchester City");
+        return str;
+    }
+}
+
