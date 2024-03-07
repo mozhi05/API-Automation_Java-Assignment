@@ -1,0 +1,44 @@
+package assignment;
+
+public class Program23 {
+
+    public static void main (String[] args)
+    {
+        Program23 obj = new Program23();
+
+
+        // array of size 4.
+        int[] arr = new int[4];
+        arr[0]=123;
+        arr[1]=123;
+        arr[2]=123;
+        arr[3]=123;
+
+        obj.exception(arr);
+    }
+
+            public void exception(int[] a)
+
+            {
+
+
+        try
+        {
+            int i = a[5];
+
+
+            System.out.println("Inside try block");
+        }
+
+        catch(ArrayIndexOutOfBoundsException ex)
+        {
+            System.out.println("Exception caught in catch block");
+        }
+
+        finally
+        {
+            System.out.println("finally block executed");
+        }
+
+    }
+}
