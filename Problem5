@@ -1,0 +1,29 @@
+package assignment;
+
+public class Updatedproblem5
+{
+
+
+public static void main(String[] args)
+    {
+    Updatedproblem5 obj=new Updatedproblem5();
+    obj.loop_print808loop(600);
+    }
+
+    public void loop_print808loop(int b)
+
+    {
+        for (int i=500;i<=1000;i++)
+
+        {
+            if (i ==808)
+            {
+                System.out.println("the number is 808===>" +b);
+            } else
+            {
+                System.out.println("the number is not 808===>" +b);
+            }
+            break;
+        }
+    }
+}
