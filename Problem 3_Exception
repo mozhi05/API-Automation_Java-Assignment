@@ -1,0 +1,29 @@
+package assignment;
+
+public class Problem3_Exception
+{
+    public static void main (String args[])
+
+    {
+        Problem3_Exception PE = new Problem3_Exception();
+        PE.Age(30);
+
+    }
+     
+
+        public int Age(int a)
+        {
+            if(a<25 || a>55)
+            {
+                throw new ArithmeticException("Age must be between 25 and 55...!!");
+            }
+            else
+            {
+                System.out.println("Your Age is between 25 and 55. ");
+            }
+            return a;
+        }
+
+}
+
+
