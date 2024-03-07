@@ -1,0 +1,26 @@
+package assignment;
+
+public class Program22
+{
+    static String name1 = "Narendra Modi";
+
+
+    public static void main(String args[])
+    {
+        Program22 obj = new Program22();
+        uppercase(name1);
+        lowercase(name1);
+    }
+
+    static String uppercase(String s1)
+    {
+             System.out.println("The upper case is "+s1.toUpperCase());
+             return s1;
+    }
+
+    static String lowercase(String s1)
+    {
+        System.out.println("The lower case is "+s1.toLowerCase());
+        return s1;
+    }
+}
